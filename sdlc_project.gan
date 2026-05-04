@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Software Development Lifecycle" company="Your Company" webLink="" view-date="2026-05-04" view-index="0" gantt-divider-location="374" resource-divider-location="322" version="3.3.3271" locale="en_US">
+    <description>Full Software Development Lifecycle - Planning through Deployment and Maintenance</description>
+    <view zooming-state="default:6" id="gantt-chart">
+        <field id="tpd3" name="Name" width="200" order="0"/>
+        <field id="tpd4" name="Begin date" width="75" order="1"/>
+        <field id="tpd5" name="End date" width="75" order="2"/>
+        <field id="tpd6" name="Duration" width="50" order="3"/>
+        <field id="tpd7" name="Completion" width="50" order="4"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- CALENDAR -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <!-- TASKS -->
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+
+        <!-- ══════════════════════════════════════════════ -->
+        <!-- PHASE 1: PROJECT PLANNING                      -->
+        <!-- ══════════════════════════════════════════════ -->
+        <task id="1" name="1. Project Planning" color="#1a73e8" shape="0" expand="true"
+              start="2026-05-04" duration="10" complete="0" priority="2">
+            <task id="2" name="Define Project Scope" color="#4285f4"
+                  start="2026-05-04" duration="3" complete="0" priority="1"/>
+            <task id="3" name="Stakeholder Identification" color="#4285f4"
+                  start="2026-05-07" duration="2" complete="0" priority="1"/>
+            <task id="4" name="Feasibility Study" color="#4285f4"
+                  start="2026-05-07" duration="4" complete="0" priority="1"/>
+            <task id="5" name="Resource &amp; Budget Planning" color="#4285f4"
+                  start="2026-05-11" duration="2" complete="0" priority="1"/>
+            <task id="6" name="Project Charter Sign-off" color="#1967d2" shape="8"
+                  start="2026-05-14" duration="0" complete="0" priority="2"/>
+        </task>
+
+        <!-- ══════════════════════════════════════════════ -->
+        <!-- PHASE 2: REQUIREMENTS ANALYSIS                 -->
+        <!-- ══════════════════════════════════════════════ -->
+        <task id="10" name="2. Requirements Analysis" color="#188038" shape="0" expand="true"
+              start="2026-05-15" duration="10" complete="0" priority="2">
+            <task id="11" name="Gather Business Requirements" color="#34a853"
+                  start="2026-05-15" duration="4" complete="0" priority="1"/>
+            <task id="12" name="Functional Requirements Spec" color="#34a853"
+                  start="2026-05-19" duration="3" complete="0" priority="1"/>
+            <task id="13" name="Non-Functional Requirements" color="#34a853"
+                  start="2026-05-19" duration="3" complete="0" priority="1"/>
+            <task id="14" name="Use Case &amp; User Stories" color="#34a853"
+                  start="2026-05-22" duration="2" complete="0" priority="1"/>
+            <task id="15" name="Requirements Review &amp; Approval" color="#0d652d" shape="8"
+                  start="2026-05-26" duration="0" complete="0" priority="2"/>
+        </task>
+
+        <!-- ══════════════════════════════════════════════ -->
+        <!-- PHASE 3: SYSTEM DESIGN                         -->
+        <!-- ══════════════════════════════════════════════ -->
+        <task id="20" name="3. System Design" color="#e37400" shape="0" expand="true"
+              start="2026-05-27" duration="14" complete="0" priority="2">
+            <task id="21" name="High-Level Architecture Design" color="#fa7b17"
+                  start="2026-05-27" duration="4" complete="0" priority="1"/>
+            <task id="22" name="Database Schema Design" color="#fa7b17"
+                  start="2026-05-29" duration="5" complete="0" priority="1"/>
+            <task id="23" name="UI/UX Wireframes &amp; Prototypes" color="#fa7b17"
+                  start="2026-06-01" duration="6" complete="0" priority="1"/>
+            <task id="24" name="API &amp; Integration Design" color="#fa7b17"
+                  start="2026-06-03" duration="4" complete="0" priority="1"/>
+            <task id="25" name="Security Architecture Review" color="#fa7b17"
+                  start="2026-06-05" duration="3" complete="0" priority="1"/>
+            <task id="26" name="Design Document Approval" color="#b06000" shape="8"
+                  start="2026-06-10" duration="0" complete="0" priority="2"/>
+        </task>
+
+        <!-- ══════════════════════════════════════════════ -->
+        <!-- PHASE 4: DEVELOPMENT / IMPLEMENTATION          -->
+        <!-- ══════════════════════════════════════════════ -->
+        <task id="30" name="4. Development / Implementation" color="#8430ce" shape="0" expand="true"
+              start="2026-06-11" duration="40" complete="0" priority="2">
+            <task id="31" name="Environment Setup &amp; CI/CD Pipeline" color="#9c27b0"
+                  start="2026-06-11" duration="5" complete="0" priority="1"/>
+            <task id="32" name="Sprint 1 – Core Backend Modules" color="#9c27b0"
+                  start="2026-06-16" duration="10" complete="0" priority="1"/>
+            <task id="33" name="Sprint 2 – Frontend UI Development" color="#9c27b0"
+                  start="2026-06-26" duration="10" complete="0" priority="1"/>
+            <task id="34" name="Sprint 3 – API Integration" color="#9c27b0"
+                  start="2026-07-06" duration="8" complete="0" priority="1"/>
+            <task id="35" name="Sprint 4 – Authentication &amp; Security" color="#9c27b0"
+                  start="2026-07-14" duration="5" complete="0" priority="1"/>
+            <task id="36" name="Code Review &amp; Refactoring" color="#9c27b0"
+                  start="2026-07-19" duration="4" complete="0" priority="1"/>
+            <task id="37" name="Feature Freeze / Dev Complete" color="#5c01a6" shape="8"
+                  start="2026-07-21" duration="0" complete="0" priority="2"/>
+        </task>
+
+        <!-- ══════════════════════════════════════════════ -->
+        <!-- PHASE 5: TESTING &amp; QA                          -->
+        <!-- ══════════════════════════════════════════════ -->
+        <task id="40" name="5. Testing &amp; Quality Assurance" color="#c5221f" shape="0" expand="true"
+              start="2026-07-22" duration="20" complete="0" priority="2">
+            <task id="41" name="Unit Testing" color="#e52592"
+                  start="2026-07-22" duration="5" complete="0" priority="1"/>
+            <task id="42" name="Integration Testing" color="#e52592"
+                  start="2026-07-27" duration="5" complete="0" priority="1"/>
+            <task id="43" name="System Testing" color="#e52592"
+                  start="2026-07-31" duration="4" complete="0" priority="1"/>
+            <task id="44" name="Performance &amp; Load Testing" color="#e52592"
+                  start="2026-08-04" duration="3" complete="0" priority="1"/>
+            <task id="45" name="Security / Penetration Testing" color="#e52592"
+                  start="2026-08-04" duration="3" complete="0" priority="1"/>
+            <task id="46" name="User Acceptance Testing (UAT)" color="#e52592"
+                  start="2026-08-07" duration="5" complete="0" priority="1"/>
+            <task id="47" name="Bug Fixing &amp; Regression Testing" color="#e52592"
+                  start="2026-08-10" duration="3" complete="0" priority="1"/>
+            <task id="48" name="QA Sign-off" color="#9c0000" shape="8"
+                  start="2026-08-13" duration="0" complete="0" priority="2"/>
+        </task>
+
+        <!-- ══════════════════════════════════════════════ -->
+        <!-- PHASE 6: DEPLOYMENT                            -->
+        <!-- ══════════════════════════════════════════════ -->
+        <task id="50" name="6. Deployment" color="#185abc" shape="0" expand="true"
+              start="2026-08-14" duration="10" complete="0" priority="2">
+            <task id="51" name="Staging Environment Deployment" color="#1967d2"
+                  start="2026-08-14" duration="3" complete="0" priority="1"/>
+            <task id="52" name="Production Readiness Review" color="#1967d2"
+                  start="2026-08-17" duration="2" complete="0" priority="1"/>
+            <task id="53" name="Data Migration &amp; Backup" color="#1967d2"
+                  start="2026-08-19" duration="2" complete="0" priority="1"/>
+            <task id="54" name="Production Deployment" color="#1967d2"
+                  start="2026-08-21" duration="2" complete="0" priority="1"/>
+            <task id="55" name="Go-Live!" color="#0842a0" shape="8"
+                  start="2026-08-25" duration="0" complete="0" priority="2"/>
+        </task>
+
+        <!-- ══════════════════════════════════════════════ -->
+        <!-- PHASE 7: MAINTENANCE &amp; SUPPORT                 -->
+        <!-- ══════════════════════════════════════════════ -->
+        <task id="60" name="7. Maintenance &amp; Support" color="#00695c" shape="0" expand="true"
+              start="2026-08-26" duration="30" complete="0" priority="2">
+            <task id="61" name="Post-Launch Monitoring" color="#00897b"
+                  start="2026-08-26" duration="10" complete="0" priority="1"/>
+            <task id="62" name="Bug Fixes &amp; Patches" color="#00897b"
+                  start="2026-08-26" duration="15" complete="0" priority="1"/>
+            <task id="63" name="Performance Optimization" color="#00897b"
+                  start="2026-09-07" duration="10" complete="0" priority="1"/>
+            <task id="64" name="Documentation &amp; Knowledge Transfer" color="#00897b"
+                  start="2026-09-07" duration="8" complete="0" priority="1"/>
+            <task id="65" name="Retrospective &amp; Project Closure" color="#00897b"
+                  start="2026-09-17" duration="5" complete="0" priority="1"/>
+            <task id="66" name="Project Closed" color="#004d40" shape="8"
+                  start="2026-09-25" duration="0" complete="0" priority="2"/>
+        </task>
+
+    </tasks>
+
+    <!-- DEPENDENCIES -->
+    <dependencies>
+        <depend id="10" type="2" difference="0" hardness="Strong"/>
+        <depend id="20" type="2" difference="0" hardness="Strong"/>
+        <depend id="30" type="2" difference="0" hardness="Strong"/>
+        <depend id="40" type="2" difference="0" hardness="Strong"/>
+        <depend id="50" type="2" difference="0" hardness="Strong"/>
+        <depend id="60" type="2" difference="0" hardness="Strong"/>
+    </dependencies>
+
+    <!-- RESOURCES -->
+    <resources>
+        <resource id="0" name="Project Manager" function="Default:1" contacts="" phone=""/>
+        <resource id="1" name="Business Analyst" function="Default:2" contacts="" phone=""/>
+        <resource id="2" name="UI/UX Designer" function="Default:3" contacts="" phone=""/>
+        <resource id="3" name="Backend Developer" function="Default:4" contacts="" phone=""/>
+        <resource id="4" name="Frontend Developer" function="Default:5" contacts="" phone=""/>
+        <resource id="5" name="QA Engineer" function="Default:6" contacts="" phone=""/>
+        <resource id="6" name="DevOps Engineer" function="Default:7" contacts="" phone=""/>
+        <resource id="7" name="Security Engineer" function="Default:8" contacts="" phone=""/>
+    </resources>
+
+    <!-- RESOURCE ALLOCATIONS -->
+    <allocations>
+        <allocation task-id="2"  resource-id="0" function="Default:1" responsible="true" load="100"/>
+        <allocation task-id="3"  resource-id="0" function="Default:1" responsible="true" load="100"/>
+        <allocation task-id="4"  resource-id="1" function="Default:2" responsible="true" load="100"/>
+        <allocation task-id="5"  resource-id="0" function="Default:1" responsible="true" load="100"/>
+        <allocation task-id="11" resource-id="1" function="Default:2" responsible="true" load="100"/>
+        <allocation task-id="12" resource-id="1" function="Default:2" responsible="true" load="100"/>
+        <allocation task-id="13" resource-id="1" function="Default:2" responsible="true" load="100"/>
+        <allocation task-id="14" resource-id="1" function="Default:2" responsible="true" load="100"/>
+        <allocation task-id="21" resource-id="3" function="Default:4" responsible="true" load="100"/>
+        <allocation task-id="22" resource-id="3" function="Default:4" responsible="true" load="100"/>
+        <allocation task-id="23" resource-id="2" function="Default:3" responsible="true" load="100"/>
+        <allocation task-id="24" resource-id="3" function="Default:4" responsible="true" load="100"/>
+        <allocation task-id="25" resource-id="7" function="Default:8" responsible="true" load="100"/>
+        <allocation task-id="31" resource-id="6" function="Default:7" responsible="true" load="100"/>
+        <allocation task-id="32" resource-id="3" function="Default:4" responsible="true" load="100"/>
+        <allocation task-id="33" resource-id="4" function="Default:5" responsible="true" load="100"/>
+        <allocation task-id="34" resource-id="3" function="Default:4" responsible="true" load="50"/>
+        <allocation task-id="34" resource-id="4" function="Default:5" responsible="false" load="50"/>
+        <allocation task-id="35" resource-id="7" function="Default:8" responsible="true" load="100"/>
+        <allocation task-id="36" resource-id="3" function="Default:4" responsible="true" load="50"/>
+        <allocation task-id="36" resource-id="4" function="Default:5" responsible="false" load="50"/>
+        <allocation task-id="41" resource-id="5" function="Default:6" responsible="true" load="100"/>
+        <allocation task-id="42" resource-id="5" function="Default:6" responsible="true" load="100"/>
+        <allocation task-id="43" resource-id="5" function="Default:6" responsible="true" load="100"/>
+        <allocation task-id="44" resource-id="5" function="Default:6" responsible="true" load="100"/>
+        <allocation task-id="45" resource-id="7" function="Default:8" responsible="true" load="100"/>
+        <allocation task-id="46" resource-id="1" function="Default:2" responsible="true" load="100"/>
+        <allocation task-id="47" resource-id="5" function="Default:6" responsible="true" load="100"/>
+        <allocation task-id="51" resource-id="6" function="Default:7" responsible="true" load="100"/>
+        <allocation task-id="52" resource-id="0" function="Default:1" responsible="true" load="100"/>
+        <allocation task-id="53" resource-id="6" function="Default:7" responsible="true" load="100"/>
+        <allocation task-id="54" resource-id="6" function="Default:7" responsible="true" load="100"/>
+        <allocation task-id="61" resource-id="6" function="Default:7" responsible="true" load="100"/>
+        <allocation task-id="62" resource-id="3" function="Default:4" responsible="true" load="100"/>
+        <allocation task-id="63" resource-id="3" function="Default:4" responsible="true" load="100"/>
+        <allocation task-id="64" resource-id="0" function="Default:1" responsible="true" load="100"/>
+        <allocation task-id="65" resource-id="0" function="Default:1" responsible="true" load="100"/>
+    </allocations>
+
+    <roles roleset-name="Default"/>
+</project>
